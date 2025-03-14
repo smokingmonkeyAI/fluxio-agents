@@ -1,0 +1,22 @@
+# Core dependencies
+fastapi>=0.95.0
+uvicorn>=0.21.1
+pydantic>=1.10.7
+
+# Database clients
+neo4j>=5.8.0
+qdrant-client>=1.1.1
+
+# Code parsing and processing
+tree-sitter>=0.20.1
+libcst>=1.0.0
+ast-comments>=1.0.0
+
+# Embedding and LLM
+openai>=0.27.0
+langchain>=0.0.200
+sentence-transformers>=2.2.2
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
